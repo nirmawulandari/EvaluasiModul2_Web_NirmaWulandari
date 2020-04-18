@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Evaluasi_Modul2_WEB</title>
+
+    <style>
+        table {
+            margin-top: 50px;
+            padding: 8px;
+            position: relative;
+            border: 2px solid black;
+            max-width: 600px;
+        }
+
+        .inputan-no input {
+            width: 40px;
+            margin: 10px;
+        }
+
+        .inputan-no2 input {
+            width: 40px;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div align="center">
+        <table style>
+            <tr>
+                <td colspan="4" style="text-align: center; background-color:salmon; height: 20px;">
+                    <h2 style="margin: 0; color: black;">Form Pengajuan KTP</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nomor Pendaftaran
+                </td>
+
+                <td>
+                    <div class="inputan-no">
+                        <input type="text" name="" id="">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="inputan-no2">
+                        <input type="text" style="margin-left: 0;">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td colspan="2"><input type="text" placeholder="Nama Lengkap" name="" id=""
+                        style=" width:310px ;margin: 10px;"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td colspan="2"><textarea name="" id="" cols="41" rows="2" style="margin: 10px;"
+                        placeholder="Alamat Lengkap"></textarea></td>
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td colspan="2">
+                    <select name="" id="" style="margin: 10px;">
+                        <option value="">Sulawesi Selatan</option>
+                        <option value="">Sulawesi Tengah</option>
+                        <option value="">Sulawesi Tenggara</option>
+                        <option value="">Sulawesi Utara</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Kota</td>
+                <td>
+                    <input type="text" name="" id="" style=" width:120px ;margin: 10px;" placeholder="Kota">
+                </td>
+                <td>
+                    Kec.
+                    <input type="text" style=" margin: 10px; width: 120px;" placeholder="Kecamatan">
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td colspan="2"><input type="text" name="" id="" style=" width:150px ;margin: 10px;"
+                        placeholder="Pekerjaan"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td colspan="2">
+                    <input type="radio" name="" id="" style="margin: 10px;">Pria
+                    <input type="radio" name="" id="" style="margin: 10px;">Wanita
+
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat/Tanggal Lahir</td>
+                <td><input type="text" name="" id="" style=" width:100px ;margin: 10px;" placeholder="Tempat Lahir">
+                </td>
+                <td>
+                    <input type="date" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Kelengkapan Berkas</td>
+                <td><input type="checkbox" name="" id="" style="margin: 10px;">FC KK
+                </td>
+                <td><input type="checkbox" name="" id="">Surat Pengantar</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="" style="margin: 10px;">Pas Foto
+                </td>
+                <td><input type="checkbox" name="" id="">Surat Domisili</td>
+            </tr>
+            <tr>
+                <td>
+                    File Scan
+                </td>
+                <td colspan="2">
+                    <input type="file" name="" id="" style="margin: 10px;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <input type="submit" value="Pengajuan" style="margin: 10px;">
+                    <input type="submit" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
